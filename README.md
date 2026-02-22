@@ -65,45 +65,52 @@ The origin of the **data heterogeneity** phenomenon is the characteristics of us
 
 > ### Traditional FL (tFL)
 
-  ***Basic tFL***
+***Basic tFL***
 
 - **FedAvg** — [Communication-Efficient Learning of Deep Networks from Decentralized Data](http://proceedings.mlr.press/v54/mcmahan17a.html) *AISTATS 2017*
 
-  ***Update-correction-based tFL***
+
+***Update-correction-based tFL***
 
 - **SCAFFOLD** - [SCAFFOLD: Stochastic Controlled Averaging for Federated Learning](http://proceedings.mlr.press/v119/karimireddy20a.html) *ICML 2020*
 
-  ***Regularization-based tFL***
+
+***Regularization-based tFL***
 
 - **FedProx** — [Federated Optimization in Heterogeneous Networks](https://arxiv.org/abs/1812.06127) *MLsys 2020*
 - **FedDyn** — [Federated Learning Based on Dynamic Regularization](https://openreview.net/forum?id=B7v4QMR6Z9w) *ICLR 2021*
 
-  ***Model-splitting-based tFL***
+
+***Model-splitting-based tFL***
 
 - **MOON** — [Model-Contrastive Federated Learning](https://openaccess.thecvf.com/content/CVPR2021/html/Li_Model-Contrastive_Federated_Learning_CVPR_2021_paper.html) *CVPR 2021*
 - **FedLC** — [Federated Learning With Label Distribution Skew via Logits Calibration](https://proceedings.mlr.press/v162/zhang22p.html) *ICML 2022*
 
-  ***Knowledge-distillation-based tFL***
+
+***Knowledge-distillation-based tFL***
 
 - **FedGen** — [Data-Free Knowledge Distillation for Heterogeneous Federated Learning](http://proceedings.mlr.press/v139/zhu21b.html) *ICML 2021*
 - **FedNTD** — [Preservation of the Global Knowledge by Not-True Distillation in Federated Learning](https://proceedings.neurips.cc/paper_files/paper/2022/hash/fadec8f2e65f181d777507d1df69b92f-Abstract-Conference.html) *NeurIPS 2022*
 
-  ***Heuristically-search-based tFL***
-  
+
+***Heuristically-search-based tFL***
+
 - **FedCross** - [FedCross: Towards Accurate Federated Learning via Multi-Model Cross-Aggregation](https://www.computer.org/csdl/proceedings-article/icde/2024/171500c137/1YOuaPcHF3q) *ICDE 2024*
 
 > ### Personalized FL (pFL)
 
-  ***Meta-learning-based pFL***
+***Meta-learning-based pFL***
 
 - **Per-FedAvg** — [Personalized Federated Learning with Theoretical Guarantees: A Model-Agnostic Meta-Learning Approach](https://proceedings.neurips.cc/paper/2020/hash/24389bfe4fe2eba8bf9aa9203a44cdad-Abstract.html) *NeurIPS 2020*
 
-  ***Regularization-based pFL***
-  
+
+***Regularization-based pFL***
+
 - **pFedMe** — [Personalized Federated Learning with Moreau Envelopes](https://papers.nips.cc/paper/2020/hash/f4f1f13c8289ac1b1ee0ff176b56fc60-Abstract.html) *NeurIPS 2020*
 - **Ditto** — [Ditto: Fair and robust federated learning through personalization](https://proceedings.mlr.press/v139/li21h.html) *ICML 2021*
 
-  ***Personalized-aggregation-based pFL***
+
+***Personalized-aggregation-based pFL***
 
 - **APFL** — [Adaptive Personalized Federated Learning](https://arxiv.org/abs/2003.13461) *2020* 
 - **FedFomo** — [Personalized Federated Learning with First Order Model Optimization](https://openreview.net/forum?id=ehJqJQk9cw) *ICLR 2021*
@@ -112,7 +119,8 @@ The origin of the **data heterogeneity** phenomenon is the characteristics of us
 - **APPLE** — [Adapt to Adaptation: Learning Personalization for Cross-Silo Federated Learning](https://www.ijcai.org/proceedings/2022/301) *IJCAI 2022*
 - **FedALA** — [FedALA: Adaptive Local Aggregation for Personalized Federated Learning](https://ojs.aaai.org/index.php/AAAI/article/view/26330) *AAAI 2023* 
 
-  ***Model-splitting-based pFL***
+
+***Model-splitting-based pFL***
 
 - **FedPer** — [Federated Learning with Personalization Layers](https://arxiv.org/abs/1912.00818) *2019*
 - **LG-FedAvg** — [Think Locally, Act Globally: Federated Learning with Local and Global Representations](https://arxiv.org/abs/2001.01523) *2020*
@@ -128,7 +136,8 @@ The origin of the **data heterogeneity** phenomenon is the characteristics of us
 - **PFL-DA** — [Personalized Federated Learning via Domain Adaptation with an Application to Distributed 3D Printing](https://www.tandfonline.com/doi/full/10.1080/00401706.2022.2157882) *Technometrics 2023*
 - **FedAS** — [FedAS: Bridging Inconsistency in Personalized Federated Learning](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_FedAS_Bridging_Inconsistency_in_Personalized_Federated_Learning_CVPR_2024_paper.pdf) *CVPR 2024*
 
-  ***Knowledge-distillation-based pFL (more in [HtFLlib](https://github.com/TsingZ0/HtFLlib))***
+
+***Knowledge-distillation-based pFL (more in [HtFLlib](https://github.com/TsingZ0/HtFLlib))***
 
 - **FD (FedDistill)** — [Communication-Efficient On-Device Machine Learning: Federated Distillation and Augmentation under Non-IID Private Data](https://arxiv.org/pdf/1811.11479.pdf) *2018*
 - **FML** — [Federated Mutual Learning](https://arxiv.org/abs/2006.16765) *2020*
@@ -137,7 +146,8 @@ The origin of the **data heterogeneity** phenomenon is the characteristics of us
 - **FedPCL (w/o pre-trained models)** — [Federated learning from pre-trained models: A contrastive learning approach](https://proceedings.neurips.cc/paper_files/paper/2022/file/7aa320d2b4b8f6400b18f6f77b6c1535-Paper-Conference.pdf) *NeurIPS 2022* 
 - **FedPAC** — [Personalized Federated Learning with Feature Alignment and Classifier Collaboration](https://openreview.net/pdf?id=SXZr8aDKia) *ICLR 2023*
 
-  ***Other pFL***
+
+***Other pFL***
 
 - **FedMTL (not MOCHA)** — [Federated multi-task learning](https://papers.nips.cc/paper/2017/hash/6211080fa89981f66b1a0c9d55c61d0f-Abstract.html) *NeurIPS 2017*
 - **FedBN** — [FedBN: Federated Learning on non-IID Features via Local Batch Normalization](https://openreview.net/forum?id=6YEQUn0QICG) *ICLR 2021*
@@ -275,9 +285,9 @@ Client 2         Size of data: 1630      Labels:  [0 3 6 9]
     Total number of samples: 70000
     The number of train samples: [1972, 374, 1222, 1905, 1437, 4641, 942, 951, 2700, 3004, 2337, 2829, 2709, 1600, 4297, 4086, 2721, 4239, 3949, 4577]
     The number of test samples: [658, 125, 408, 636, 480, 1548, 314, 318, 900, 1002, 779, 943, 904, 534, 1433, 1362, 907, 1414, 1317, 1526]
-
+    
     Saving to disk.
-
+    
     Finish generating dataset.
 </details>
 
@@ -354,14 +364,14 @@ This library is designed to be easily extendable with new algorithms and dataset
   # `generate_DATA.py`
   import necessary pkgs
   from utils import necessary processing funcs
-
+  
   def generate_dataset(...):
     # download dataset as usual
     # pre-process dataset as usual
     X, y, statistic = separate_data((dataset_content, dataset_label), ...)
     train_data, test_data = split_data(X, y)
     save_file(config_path, train_path, test_path, train_data, test_data, statistic, ...)
-
+  
   # call the generate_dataset func
   ```
   
@@ -372,11 +382,11 @@ This library is designed to be easily extendable with new algorithms and dataset
     import necessary pkgs
     from flcore.clients.clientNAME import clientNAME
     from flcore.servers.serverbase import Server
-
+    
     class NAME(Server):
         def __init__(self, args, times):
             super().__init__(args, times)
-
+    
             # select slow clients
             self.set_slow_clients()
             self.set_clients(clientAVG)
@@ -388,7 +398,7 @@ This library is designed to be easily extendable with new algorithms and dataset
     # clientNAME.py
     import necessary pkgs
     from flcore.clients.clientbase import Client
-
+    
     class clientNAME(Client):
         def __init__(self, args, id, train_samples, test_samples, **kwargs):
             super().__init__(args, id, train_samples, test_samples, **kwargs)
